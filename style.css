@@ -1,0 +1,57 @@
+:root {
+  --header-bg: #000000;
+  --primary-blue: #1a237e;
+  --gold: #f1c40f;
+  --bg-color: #f4f7f9;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.header-banner {
+  background-color: var(--header-bg);
+  border-bottom: 4px solid var(--gold);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.office-titles h5 {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.main-card {
+  border-radius: 15px;
+}
+
+.card-header {
+  background-color: var(--primary-blue);
+  color: white;
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.btn-primary-custom {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  transition: all 0.3s;
+}
+
+.btn-primary-custom:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.table-sm th {
+  font-weight: 600;
+  color: #444;
+  width: 60%;
+}
+
+.table-sm td {
+  text-align: right;
+  font-weight: 700;
+  color: var(--primary-blue);
+}
